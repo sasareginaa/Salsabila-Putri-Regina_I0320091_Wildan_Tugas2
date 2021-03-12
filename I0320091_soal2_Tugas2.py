@@ -1,5 +1,5 @@
 from datetime import datetime
-print("******Identitas Pribadi******")
+print("*******Identitas Pribadi*******")
 Nama_lengkap = "Salsabila Putri Regina"
 Nama_panggilan = "Sasa"
 Tempat_kelahiran = "Jakarta"
