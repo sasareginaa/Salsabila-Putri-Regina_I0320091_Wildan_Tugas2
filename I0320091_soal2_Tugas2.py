@@ -1,0 +1,39 @@
+from datetime import datetime
+print("******Identitas Pribadi******")
+Nama_lengkap = "Salsabila Putri Regina"
+Nama_panggilan = "Sasa"
+Tempat_kelahiran = "Jakarta"
+Tanggal_lahir = 25
+Bulan_lahir = 8
+Tahun_lahir = 2002
+sekarang = datetime.now()
+tanggal_sekarang = sekarang.day
+bulan_sekarang = sekarang.month
+tahun_sekarang = sekarang.year
+tanggal_lahir = 3
+bulan_lahir = 7
+tahun_lahir = 2002
+sekarang = int(tanggal_sekarang) + (int(bulan_sekarang)*30) + (int(tahun_sekarang)*365)
+lahir = int(tanggal_lahir) + (int(bulan_lahir)*30) + (int(tahun_lahir)*365)
+tahun = int((sekarang - lahir) / 365)
+bulan = int(((sekarang - lahir)%365) / 30)
+hari = int(((sekarang - lahir)%365) % 30)
+Asal_daerah ="Cilegon,Banten"
+Alamat_rumah = "Taman Cilegon Indah, Cluster Taman Helikonia Blok C6 No 2"
+Anak_ke = "Kedua dari dua bersaudara"
+Nama_ayah = "Dony Kusmeidya"
+Nama_ibu = "Tintien Kadi L"
+Hewan_peliharaan = "Kucing dan cupang"
+Nama_peliharaan = "Cherry dan Aquila"
+Pekerjaan = "Mahasiswa"
+Tempat_kuliah = "Universitas Sebelas Maret"
+Jurusan = "Teknik Industri"
+Angkatan = 2020
+Cita_cita = "Masuk surga"
+Tinggi_badan = 168.5
+Berat_badan = 52.4
+Ukuran_sepatu = 36.5
+Makanan_favorite = "Sate padang"
+Minuman_favorite = "Es jeruk"
+Warna_favorite = "Hitam"
+print("Halo mas dan mba! Perkenalkan nama saya",Nama_lengkap,"\n","biasa dipanggil",Nama_panggilan,"\n","saya lahir di",Tempat_kelahiran,"\n","Umur saya adalah", tahun, "Tahun", bulan, "Bulan", hari, "Hari", "\n", "Saya berasal dari", Asal_daerah, "\n", "Lebih tepatnya di", Alamat_rumah, "\n", "Saya merupakan anak", Anak_ke, "\n", "Dari pasangan Bapak", Nama_ayah, "\n", "dan Ibu", Nama_ibu, "\n", "Saya juga mempunyai 2 hewan peliharaan yaitu,", Hewan_peliharaan, "\n", "yang bernama", Nama_peliharaan, "\n", "Sekarang saya merupakan seorang", Pekerjaan, "\n", "di Kampus", Tempat_kuliah, "\n", "Saya sendiri mengambil jurusan", Jurusan, "\n", "dan saya berasal dari angkatan", Angkatan, "\n", "Cita-cita saya adalah", Cita_cita, "\n", "Saya memiliki tinggi badan", Tinggi_badan, "\n", "Berat badan", Berat_badan, "\n", "dan ukuran sepatu saya adalah", Ukuran_sepatu, "\n", "Saya sangat menyukai makanan", Makanan_favorite, "\n", "dan minuman yang sangat saya sukai adalah", Minuman_favorite, "\n", "Saya juga menyukai Warna", Warna_favorite)
